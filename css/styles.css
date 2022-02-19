@@ -1,0 +1,210 @@
+/* font-family: 'Raleway', sans-serif;
+     */
+
+:root {
+  --logo-text-font: 'Raleway';
+  --nohover-navlink-color: #212121;
+  --hover-cont-link: #2196f3;
+  --primary-text-color: #757575;
+  --communication-color: rgba(255, 255, 255, 0.6);
+  --button-text-color: #ffffff;
+  --title-text-color: #212121;
+  --primary-font: 'Roboto', sans-serif;
+  --accent-color: ;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* Общие стили */
+.title-seclion {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button {
+  font-family: inherit;
+  cursor: pointer;
+}
+/* Скрытый заголовок h2 */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* Подсвечивание текущей страницы */
+.active-link:visited {
+  color: var(--hover-cont-link);
+}
+
+/* Стили шапки */
+.head-site {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+/* Лого */
+.logo {
+  font-family: var(--logo-text-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.web-logo {
+  color: #2196f3;
+}
+.studio-logo {
+  color: #000000;
+}
+.footer-studio-logo {
+  color: #ffffff;
+}
+/* Секция навигации */
+.nav-list,
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--nohover-navlink-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+/* Обратная связь с разработчиками */
+.comm-link {
+  color: var(--primary-text-color);
+}
+.comm-link:hover,
+.comm-link:focus {
+  color: var(--hover-cont-link);
+}
+
+/* Секция рекламы студии и заказа работы */
+/* Секция hero с заказом услуг */
+.hero {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+.hero-title {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.primary-button {
+  background-color: #2196f3;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--button-text-color);
+}
+/* Секция как мы работаем*/
+.about-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.about-text {
+  font-size: 14px;
+  line-height: 24px;
+}
+/* Секция Чем Мы занимаемся */
+.ourwork-titel {
+  color: var(--title-text-color);
+}
+/* Секция Наша команда */
+.ourteam-titel {
+  color: var(--title-text-color);
+}
+.ourteam-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.ourteam-prof {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Секция подвал сайта */
+.footer {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.footer-contacts {
+  color: var(--communication-color);
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--hover-cont-link);
+}
+
+/* Портофолио */
+/* Основной контент страницы */
+/* Навигация по проектам */
+.service-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+.service-button:hover,
+.service-button:focus {
+  color: var(--button-text-color);
+  background-color: #2196f3;
+}
+/* Секция Наши проекты */
+.ourprоj-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.ourprоj-text {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
